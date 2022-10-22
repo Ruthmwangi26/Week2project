@@ -71,18 +71,20 @@ if (gender == 'null'){
     
         if (dayOfTheWeek == 0){
                     index = 6;
-                }
+              }
                else {
                index = dayOfTheWeek - 1;
               }
+        
+        
 
-
-
-        if (gender == "male") {
+        if (gender == "male" & date != '') {
               document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + maleNames[index] +'!!!')
               
                 } 
-          else if (gender == "female"){
+
+
+          else if (gender == "female" & date != ''){
           document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!!')
     
         }
@@ -92,6 +94,13 @@ if (gender == 'null'){
               alert ('you entered incorrect data kindly try again')
          }  
                 
+
+
+        //  let btnClear = document.querySelector('button');
+        //  let inputs = document.querySelectorAll('input');
+        //  btnClear.addEventListener('click', () =>{
+        //   inputs.forEach(input  => input.value = '');
+        //  }); 
 
         console.log(submit)
 
