@@ -2,10 +2,16 @@
 
 h1{
         color: rgb(17, 3, 29);
+        text-decoration: underline;
 
 }
 
 body{
 
         background-color: rgb(123, 0, 255);
+        border: 50pt;
+        margin: 50pt;
+        padding: 50pt;
+        text-align: justify;
+
 }
