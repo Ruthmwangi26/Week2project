@@ -49,6 +49,18 @@ const gender = genderElement.value;
       const femaleNames = [
         "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
       ];
+
+
+      // date of birth validation
+
+      if (date == '') {
+        alert('please enter a valid date of birth')
+    }
+  
+if (gender == 'null'){
+          alert('please select your gender')
+
+  }
  
 
     //   male name get function
@@ -63,34 +75,30 @@ const gender = genderElement.value;
                else {
                index = dayOfTheWeek - 1;
               }
-  
-// date of birth validation
-
-    if (date == '') {
-    alert('please enter a valid date of birth')
-    }
-else{
-
-    console.log()
-}
-    if (gender == 'null'){
-        alert('please select your gender')
-
-    }
 
 
-        if (gender == "Male") {
+
+        if (gender == "male") {
               document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + maleNames[index] +'!!!')
+              
                 } 
-        else{
-        document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!!')
+          else if (gender == "female"){
+          document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan Name is ' + femaleNames[index] + '!!!')
+    
+        }
 
+         else{
+
+              alert ('you entered incorrect data kindly try again')
+         }  
+                
 
         console.log(submit)
 
 
-        }
+  }
+            
 
 
 
- }
+
