@@ -1,19 +1,24 @@
 
 
 h1{
-        color: rgb(17, 3, 29);
+        color: rgb(213, 20, 94);
         text-decoration: underline;
 
+}
+
+html{
+        background-color: blanchedalmond;
 }
 
 body{
 
         background-color: rgb(0, 255, 247);
         border: 10pt;
-        margin: 50pt;
+        margin: 70pt;
+        margin-bottom: 100pt;
+        margin-top: 0pt;
         border-style: solid;
-        padding-left: 5pt;
-        padding-right: 8pt;
+        padding: 20;
         text-align: center;
         white-space: pre;
         align-items: center;
@@ -24,21 +29,21 @@ body{
 
     button{
 
-                color: rgb(248, 20, 66);
+                color: rgb(213, 20, 94);
     }
 
     label{
 
-            color: tomato;
+                color: rgb(213, 20, 94);
     }
 
     #results{
-                color: rgb(15, 14, 14);
+                color: rgb(213, 20, 94);
                 text-size-adjust: 50;
                 font-size: large;
                 text-decoration: underline;
     }
 em{
-    color: rgb(0, 72, 255);
+    color: blue;
 }
    
