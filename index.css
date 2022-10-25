@@ -12,8 +12,8 @@ body{
         border: 10pt;
         margin: 50pt;
         border-style: solid;
-        padding: 5pt;
         padding-left: 5pt;
+        padding-right: 8pt;
         text-align: center;
         white-space: pre;
         align-items: center;
