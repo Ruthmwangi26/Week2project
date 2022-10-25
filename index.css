@@ -20,7 +20,9 @@ body{
         background-image: url("photo1.jpg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
+      
+        
 
         
 }
@@ -36,7 +38,12 @@ body{
     }
 
     #results{
-                color: blue;
+                color: rgb(15, 14, 14);
+                text-size-adjust: 50;
+                font-size: large;
+                text-decoration: underline;
     }
-
+em{
+    color: rgb(0, 72, 255);
+}
    
