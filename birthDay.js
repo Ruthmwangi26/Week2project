@@ -71,29 +71,47 @@ if (gender == 'null'){
 
     var index;
     
-        if (dayOfTheWeek == 0){
-                    index = 6;
-              }
-               else {
-               index = dayOfTheWeek - 1;
-              }
-      // 
+      if (dayOfTheWeek == 0 ){
+
+          // while (YY % 4 != 0 ){
+            index = 6;
+          //         }
+          // while (YY % 4 == 0){
+          //   index = index + 1 ;
+          // }
+              
+            }
+        
+          
+          else  {
+          // while (YY % 4 != 0 ){
+
+            index = dayOfTheWeek - 1;
+                // }
+                // while (YY % 4 == 0 ){
+
+                //   index = dayOfTheWeek - 2;
+                      }
+      
+
+             
+        
       //  leapYear;        
               
       //  if (YY % 4 == 0 & dayOfTheWeek == 0 ){
-      //         index = 6;
+      //         indexLeap = 6;
       //   }
       //   else {
-      //     index = dayOfTheWeek - 2;
+      //     index = dayOfTheWeek -2;
       //   }
 
-        if (gender == "male" & date != '') {
+        if (gender == "male" & date != '' & YY % 4 != 0 ) {
               document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan name is ' + maleNames[index] +'!!!')
               
                 } 
 
 
-          else if (gender == "female" & date != ''){
+          else if (gender == "female" & date != '' & YY % 4 != 0){
           document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan name is ' + femaleNames[index] + '!!!')
     
         }
@@ -103,17 +121,35 @@ if (gender == 'null'){
               alert ('you entered incorrect data kindly try again')
          }  
                 
+    //      if (gender == "male" & date != '' & YY % 4 == 0 ) {
+    //       document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[indexLeap] + ',' + 'Your Akan name is ' + maleNames[indexLeap] +'!!!')
+          
+    //         } 
 
+
+    //   else if (gender == "female" & date != '' & YY % 4 == 0){
+    //   document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[indexLeap] + ',' + 'Your Akan name is ' + femaleNames[indexLeap] + '!!!')
+
+    // }
+
+    //  else{
+
+    //       alert ('you entered incorrect data kindly try again')
+    //  }  
          
-            
+         
+         document.getElementById("clear").onclick = function(){
+    
+          document.getElementById("date").value = '';
+          document.getElementById("gender").value = 'null';
+          document.getElementById("results").textContent = '';
+         
+
+         }
 
 
 
-        //  let btnClear = document.querySelector('button');
-        //  let inputs = document.querySelectorAll('input');
-        //  btnClear.addEventListener('click', () =>{
-        //   inputs.forEach(input  => input.value = '');
-        //  }); 
+        
 
         console.log(submit)
 

@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <script src="birthDay.js" defer></script>
     <title>GHANAIAN NAME GENERATOR</title>
     <!-- <img id="home" src="photo1.jpg"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <h1>GHANIAN NAME GENERATOR</h1>
@@ -29,10 +27,14 @@
             <option value="female">female</option>
             <option value="null"></option>
         </select>
+        
     </form>
     <button type="submit" onclick="submit()">SUBMIT</button>
-    <!-- <button type="reset" onclick="submit()" >Clear</button> -->
+    <br>
+    <button id="clear" onclick="clear()">Clear</button>
+   
     <p id="results"></p>
+    
 
 
 </body>
