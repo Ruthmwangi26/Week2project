@@ -62,7 +62,9 @@ if (gender == 'null'){
 
   }
  
-
+  if (YY % 4 == 0 ){
+    alert('This is a leap year, details might not be correct')
+  }
     //   male name get function
 
    
@@ -75,8 +77,15 @@ if (gender == 'null'){
                else {
                index = dayOfTheWeek - 1;
               }
-        
-        
+      // 
+      //  leapYear;        
+              
+      //  if (YY % 4 == 0 & dayOfTheWeek == 0 ){
+      //         index = 6;
+      //   }
+      //   else {
+      //     index = dayOfTheWeek - 2;
+      //   }
 
         if (gender == "male" & date != '') {
               document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[index] + ',' + 'Your Akan name is ' + maleNames[index] +'!!!')
@@ -94,6 +103,10 @@ if (gender == 'null'){
               alert ('you entered incorrect data kindly try again')
          }  
                 
+
+         
+            
+
 
 
         //  let btnClear = document.querySelector('button');
