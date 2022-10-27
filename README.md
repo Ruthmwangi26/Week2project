@@ -29,7 +29,7 @@ The App gives below as the output.
 
 INSTALLATION AND SETUP
 
-To view the App setup details got to the repository on this link. https://github.com/Ruthmwangi26/Week2project/tree/main
+To view the App setup details got to the repository on this link. https://github.com/Ruthmwangi26/Week2project/tree/gh-pages
 
 
 RUNNING APPLICATION
