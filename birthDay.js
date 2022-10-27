@@ -27,7 +27,7 @@ const gender = genderElement.value;
 
 //     const dates = [CC, YY, MM, DD]
 
-// console.log(date)
+// check variables  are valid console.log(date)
 // 
 
 
@@ -56,16 +56,16 @@ const gender = genderElement.value;
       if (date == '') {
         alert('please enter a valid date of birth')
     }
-  
+  // gender input validation
 if (gender == 'null'){
           alert('please select your gender')
 
   }
- 
+//  leap year confirmation 
   if (YY % 4 == 0 ){
     alert('This is a leap year, details might not be correct')
   }
-    //   male name get function
+    
 
    
 
