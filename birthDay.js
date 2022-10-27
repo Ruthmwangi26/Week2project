@@ -121,21 +121,7 @@ if (gender == 'null'){
               alert ('you entered incorrect data kindly try again')
          }  
                 
-    //      if (gender == "male" & date != '' & YY % 4 == 0 ) {
-    //       document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[indexLeap] + ',' + 'Your Akan name is ' + maleNames[indexLeap] +'!!!')
-          
-    //         } 
-
-
-    //   else if (gender == "female" & date != '' & YY % 4 == 0){
-    //   document.getElementById("results").textContent = ('You were born on a ' + daysOfTheWeek[indexLeap] + ',' + 'Your Akan name is ' + femaleNames[indexLeap] + '!!!')
-
-    // }
-
-    //  else{
-
-    //       alert ('you entered incorrect data kindly try again')
-    //  }  
+    
          
          
          document.getElementById("clear").onclick = function(){
